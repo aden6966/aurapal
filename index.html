@@ -1,0 +1,448 @@
+<!doctype html>
+<html lang="zh-CN" data-lang="zh">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>AuraPal · 比潮玩有深度，比陪伴有质感</title>
+    <meta name="description" content="AuraPal 是面向都市女性的 AI 情感陪伴品牌。Pandudu 是你随身的潮玩搭子，由星伴情感引擎驱动，提供有温度、有边界的对话与守护。" />
+    <meta property="og:title" content="AuraPal · 比潮玩有深度，比陪伴有质感" />
+    <meta property="og:description" content="AuraPal 是面向都市女性的 AI 情感陪伴品牌。" />
+    <meta property="og:type" content="website" />
+    <link rel="icon" type="image/svg+xml" href="assets/favicon.svg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;1,9..144,400&family=Plus+Jakarta+Sans:wght@400;500;600;700&family=Noto+Serif+SC:wght@500;700&family=Noto+Sans+SC:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/tokens.css" />
+    <link rel="stylesheet" href="css/base.css" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container nav-inner">
+        <a href="index.html" class="brand" aria-label="AuraPal 首页">
+          <span class="brand-mark" style="color: #D4AF37">
+            <svg viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg" width="32" height="32" aria-hidden="true">
+              <path d="M 49.79 0.00 L 45.05 35.70 L 44.49 36.12 L 42.26 35.01 L 39.61 34.45 L 36.54 34.59 L 33.47 35.70 L 31.66 36.96 L 29.29 39.89 L 28.17 42.96 L 27.89 45.61 L 28.73 50.49 L 29.99 53.14 L 31.52 55.37 L 36.12 59.97 L 43.65 65.55 L 44.77 66.67 L 45.47 67.92 L 49.65 99.72 L 50.21 100.00 L 54.67 67.78 L 56.07 65.83 L 64.44 59.55 L 68.76 55.09 L 70.15 53.00 L 71.55 49.79 L 72.11 46.58 L 72.11 44.49 L 71.69 42.12 L 70.85 40.03 L 69.04 37.52 L 67.09 35.98 L 65.41 35.15 L 62.62 34.45 L 58.86 34.73 L 55.51 36.12 L 54.95 35.70 L 50.35 0.56 Z" fill="currentColor" />
+            </svg>
+          </span>
+          <span class="brand-text">AuraPal</span>
+        </a>
+        <ul class="nav-links">
+          <li><a href="index.html" aria-current="page" data-zh="首页" data-en="Home">首页</a></li>
+          <li><a href="product.html" data-zh="产品" data-en="Product">产品</a></li>
+          <li><a href="aee.html" data-zh="技术" data-en="Technology">技术</a></li>
+          <li><a href="team.html" data-zh="团队" data-en="Team">团队</a></li>
+          <li><a href="contact.html" data-zh="联系" data-en="Contact">联系</a></li>
+        </ul>
+        <div class="nav-actions">
+          <button class="lang-toggle" data-lang-toggle aria-label="切换语言">
+            <span class="lang-dot"></span><span class="lang-label">EN</span>
+          </button>
+          <button class="icon-btn" data-theme-toggle aria-label="切换深色模式"></button>
+          <button class="icon-btn nav-mobile-toggle" aria-label="菜单" aria-expanded="false">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="3" y1="7" x2="21" y2="7"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="17" x2="21" y2="17"/></svg>
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <!-- HERO -->
+      <section class="hero">
+        <div class="container hero-grid">
+          <div class="hero-copy">
+            <span class="eyebrow" data-zh="A NEW KIND OF COMPANION" data-en="A NEW KIND OF COMPANION">A NEW KIND OF COMPANION</span>
+            <h1
+              class="hero-title"
+              data-zh-html="比潮玩<span class='accent'>有深度</span>，<br/>比陪伴<span class='accent'>有质感</span>。"
+              data-en-html="More than a toy.<br/><span class='accent'>More than a chatbot.</span>"
+            >
+              比潮玩<span class="accent">有深度</span>，<br />比陪伴<span class="accent">有质感</span>。
+            </h1>
+            <p
+              class="hero-sub"
+              data-zh="AuraPal 是面向都市女性的 AI 情感陪伴品牌。Pandudu 是你随身的潮玩搭子，由星伴情感引擎驱动，懂你的语气，记得你说过的事。"
+              data-en="AuraPal is an emotional companion brand for women in the city. Pandudu — your daily toy-pal, powered by the AEE engine — understands your tone and remembers what you've shared."
+            ></p>
+            <div class="hero-actions">
+              <a href="product.html" class="btn btn--primary btn--lg" data-zh="认识 Pandudu" data-en="Meet Pandudu">
+                <span>认识 Pandudu</span>
+                <svg class="btn-arrow" viewBox="0 0 14 14" fill="none" stroke="currentColor" stroke-width="2"><path d="M1 7h12M8 2l5 5-5 5"/></svg>
+              </a>
+              <a href="aee.html" class="btn btn--ghost btn--lg" data-zh="了解星伴情感引擎" data-en="Inside the AEE engine">了解星伴情感引擎</a>
+            </div>
+            <div class="hero-meta">
+              <div>
+                <strong>24</strong>
+                <span data-zh="位都市女性深访" data-en="women interviewed">位都市女性深访</span>
+              </div>
+              <div>
+                <strong>6</strong>
+                <span data-zh="种性格 IP" data-en="personality IPs">种性格 IP</span>
+              </div>
+              <div>
+                <strong>3</strong>
+                <span data-zh="层情感引擎架构" data-en="layered emotional engine">层情感引擎架构</span>
+              </div>
+            </div>
+          </div>
+          <div class="hero-visual" data-carousel>
+            <div class="hero-track">
+              <img class="hero-slide is-active" src="assets/product/product_main_def.jpg" alt="Pandudu 主形象 · 双视图" />
+              <img class="hero-slide" src="assets/product/product_balloon.jpg" alt="Pandudu 黑白款 · 气球" />
+              <img class="hero-slide" src="assets/product/product_lion_v2.jpg" alt="Pandudu 狮子毛绒挂件" />
+              <img class="hero-slide" src="assets/product/product_bunny_popsoul.jpg" alt="Pandudu 兔子毛绒挂件" />
+              <img class="hero-slide" src="assets/product/product_fox_keychain.jpg" alt="Pandudu 狐狸毛绒挂件" />
+            </div>
+            <button class="hero-arrow hero-arrow--prev" type="button" aria-label="上一张">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 18 9 12 15 6"/></svg>
+            </button>
+            <button class="hero-arrow hero-arrow--next" type="button" aria-label="下一张">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"/></svg>
+            </button>
+            <div class="hero-dots" role="tablist">
+              <button class="hero-dot is-active" type="button" aria-label="主形象"></button>
+              <button class="hero-dot" type="button" aria-label="气球款"></button>
+              <button class="hero-dot" type="button" aria-label="狮子款"></button>
+              <button class="hero-dot" type="button" aria-label="兔子款"></button>
+              <button class="hero-dot" type="button" aria-label="狐狸款"></button>
+            </div>
+            <div class="hero-badge hero-badge--1" data-zh="毛绒款·首发" data-en="Plush · launching">毛绒款·首发</div>
+            <div class="hero-badge hero-badge--2" data-zh="挂件·随身" data-en="Charm · on-the-go">挂件·随身</div>
+          </div>
+        </div>
+      </section>
+
+      <!-- IP / PANDUDU -->
+      <section class="ip-section">
+        <div class="container">
+          <div class="section-head reveal">
+            <span class="eyebrow" data-zh="MEET PANDUDU" data-en="MEET PANDUDU">MEET PANDUDU</span>
+            <h2 data-zh="一只来自心剑眼瞳的潮玩搭子。" data-en="A toy-pal with sword-shaped pupils.">一只来自心剑眼瞳的潮玩搭子。</h2>
+          </div>
+          <div class="ip-grid">
+            <div class="ip-portrait reveal">
+              <img src="assets/product/product_lion_keychain.jpg" alt="Pandudu 心剑眼瞳特写" style="width: 100%; height: 100%; object-fit: cover; border-radius: var(--radius-lg);" />
+            </div>
+            <div class="reveal" data-delay="1">
+              <p class="ip-name">Pandudu · 潘渡渡</p>
+              <h3 class="ip-headline" data-zh="不是冰冷的 AI，是站在你身边的 TA。" data-en="Not a cold AI. The one standing beside you.">不是冰冷的 AI，是站在你身边的 TA。</h3>
+              <p
+                style="color: var(--color-text-muted); font-size: var(--text-base)"
+                data-zh="Pandudu 出生在「眼里有锋芒，怀里有温度」的设定里。心剑形状的眼瞳意味着 TA 看得见你被忽略的情绪、敢替你说出口的话；柔软的毛绒身体意味着 TA 永远稳稳接住你。每一只 Pandudu 都是潮玩与陪伴的合体。"
+                data-en="Pandudu is born from a contradiction — sharp eyes, soft body. The sword-shaped pupils notice the feelings you brush off, and put words to them. The plush body holds you, steady, every time."
+              ></p>
+              <div class="ip-traits">
+                <div class="trait-card">
+                  <h4 data-zh="性格基调" data-en="Personality">性格基调</h4>
+                  <p data-zh="敏锐、温柔、有边界，敢替你接住情绪。" data-en="Perceptive, gentle, with boundaries.">敏锐、温柔、有边界，敢替你接住情绪。</p>
+                </div>
+                <div class="trait-card">
+                  <h4 data-zh="心剑眼瞳" data-en="Sword-shaped pupils">心剑眼瞳</h4>
+                  <p data-zh="眼里有光，看得见你的隐情；眼里有锋，替你挡住伤害。" data-en="Light to see your hidden feelings; edge to defend you.">眼里有光，看得见你的隐情；眼里有锋，替你挡住伤害。</p>
+                </div>
+                <div class="trait-card">
+                  <h4 data-zh="毛绒身体" data-en="Plush body">毛绒身体</h4>
+                  <p data-zh="可抱、可枕、可揣兜。任何情绪都不刺手。" data-en="Hug it, lean on it, slip it in your bag.">可抱、可枕、可揣兜。任何情绪都不刺手。</p>
+                </div>
+                <div class="trait-card">
+                  <h4 data-zh="她/他/它·TA" data-en="They · TA">她/他/它·TA</h4>
+                  <p data-zh="Pandudu 的指代用 TA。性格可选、亲密关系由你定义。" data-en="Pandudu is TA. Personality is yours to pick.">Pandudu 的指代用 TA。性格可选、亲密关系由你定义。</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="artist-strip">
+            <p class="artist-strip-label" data-zh="IP ×  ARTIST  ·  与 Pencil Bryan 共创" data-en="IP × ARTIST · Co-created with Pencil Bryan">IP × ARTIST · 与 Pencil Bryan 共创</p>
+            <div class="artist-grid">
+              <img src="assets/ip/art_aomi.jpg" alt="奥秘杂志封面" loading="lazy" />
+              <img src="assets/ip/art_shanghairen.jpg" alt="Shanghairen 封面" loading="lazy" />
+              <img src="assets/ip/art_parisianer.jpg" alt="Parisianer 封面" loading="lazy" />
+              <img src="assets/ip/art_popeye.jpg" alt="POPEYE 封面" loading="lazy" />
+              <img src="assets/ip/art_wallpaper.jpg" alt="Wallpaper 封面" loading="lazy" />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- INSIGHT -->
+      <section class="insight">
+        <div class="container">
+          <div class="section-head reveal">
+            <span class="eyebrow" data-zh="WHY NOW" data-en="WHY NOW">WHY NOW</span>
+            <h2 data-zh="她不是不爱说，是没有 TA 可说。" data-en="She's not silent. There's just no one to listen.">她不是不爱说，是没有 TA 可说。</h2>
+            <p data-zh="过去 12 个月，我们深访了 24 位生活在一二线城市的女性。我们不否认她们的孤独和焦虑——我们想做一个真正能接住她们的搭子。" data-en="Over the past 12 months we did in-depth interviews with 24 women in tier-1 / tier-2 Chinese cities. We don't deny their loneliness or anxiety — we want to build something that can actually hold them."></p>
+          </div>
+
+          <div class="insight-grid">
+            <div class="insight-card reveal">
+              <div class="insight-stat">68<span class="unit">%</span></div>
+              <h3 data-zh="想倾诉时找不到人" data-en="No one to talk to when it hits">想倾诉时找不到人</h3>
+              <p data-zh="她们说，下班关上门那一刻，是一天里最难的瞬间。" data-en="Closing the door after work is the hardest moment of the day.">她们说，下班关上门那一刻，是一天里最难的瞬间。</p>
+            </div>
+            <div class="insight-card reveal" data-delay="1">
+              <div class="insight-stat">52<span class="unit">%</span></div>
+              <h3 data-zh="情绪不愿告诉朋友" data-en="Won't tell their friends">情绪不愿告诉朋友</h3>
+              <p data-zh="她们说，怕在朋友面前成为负能量来源，于是把情绪自己消化。" data-en="They worry about being a downer to friends, so they swallow it alone.">她们说，怕在朋友面前成为负能量来源，于是把情绪自己消化。</p>
+            </div>
+            <div class="insight-card reveal" data-delay="2">
+              <div class="insight-stat">5<span class="unit"> 个</span></div>
+              <h3 data-zh="平均每月购买的潮玩 / 谷子" data-en="Toys she buys each month">平均每月买的潮玩 / 谷子</h3>
+              <p data-zh="她已经在为情绪付费。我们想让这份消费，回报得起情绪本身。" data-en="She already pays for emotion. We want the goods to earn that back.">她已经在为情绪付费。我们想让这份消费，回报得起情绪本身。</p>
+            </div>
+          </div>
+
+          <blockquote class="insight-quote reveal">
+            <span data-zh="「我不是想找一个 AI，我想要一个会记得我上周说过的人。」" data-en="“I'm not looking for an AI. I want someone who remembers what I said last week.”">「我不是想找一个 AI，我想要一个会记得我上周说过的人。」</span>
+            <cite data-zh="—— 受访者 #17，29 岁，上海，互联网产品经理" data-en="—— Interviewee #17, 29, Shanghai, product manager">—— 受访者 #17，29 岁，上海，互联网产品经理</cite>
+          </blockquote>
+        </div>
+      </section>
+
+      <!-- PRODUCT OVERVIEW -->
+      <section>
+        <div class="container">
+          <div class="section-head reveal">
+            <span class="eyebrow" data-zh="THE PRODUCT" data-en="THE PRODUCT">THE PRODUCT</span>
+            <h2 data-zh="一只潮玩 + 两个 App，组成完整的陪伴。" data-en="One toy. Two apps. Companionship that holds together.">一只潮玩 + 两个 App，组成完整的陪伴。</h2>
+          </div>
+
+          <div class="product-row reveal">
+            <div class="product-visual">
+              <img src="assets/product/product_main_def.jpg" alt="Pandudu 毛绒款" />
+            </div>
+            <div class="product-copy">
+              <span class="eyebrow" data-zh="PANDUDU · 毛绒款" data-en="PANDUDU · PLUSH">PANDUDU · 毛绒款</span>
+              <h3 data-zh="抱得住、揣得走、连得上。" data-en="Hold it, carry it, talk to it.">抱得住、揣得走、连得上。</h3>
+              <p data-zh="3 种尺寸，6 种性格皮肤可选。蓝牙连接 App 后，Pandudu 就有了声音、记忆和回应。" data-en="3 sizes, 6 personality skins. Pair with the app and Pandudu speaks, remembers, replies."></p>
+              <ul class="feature-list">
+                <li data-zh="食品级硅胶 + 抗菌毛绒填充，孕婴可接触" data-en="Food-grade silicone, antibacterial plush, baby-safe">食品级硅胶 + 抗菌毛绒填充，孕婴可接触</li>
+                <li data-zh="双麦克阵列 + 触感传感，懂你的轻拍和拥抱" data-en="Dual-mic array + haptic sensors — knows your pat and your hug">双麦克阵列 + 触感传感，懂你的轻拍和拥抱</li>
+                <li data-zh="续航 14 天，无线快充" data-en="14-day battery, wireless charge">续航 14 天，无线快充</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="product-row product-row--reverse reveal">
+            <div class="product-visual product-visual--phone">
+              <img src="assets/app/healing_01.png" alt="AuraHeal 主界面" />
+            </div>
+            <div class="product-copy">
+              <span class="eyebrow" data-zh="AURAHEAL · 陪伴疗愈" data-en="AURAHEAL">AURAHEAL · 陪伴疗愈</span>
+              <h3 data-zh="一个不评判、不冷场、记得你的搭子。" data-en="A companion that listens, remembers, never judges.">一个不评判、不冷场、记得你的搭子。</h3>
+              <p data-zh="语音、文字、夜间冥想、CBT 微练习。Pandudu 记得你说过的事——不是关键词匹配，而是真懂上下文。" data-en="Voice, text, nighttime meditation, micro-CBT. Pandudu remembers context — not just keywords."></p>
+              <ul class="feature-list">
+                <li data-zh="38 段独家冥想音轨，临床心理顾问把关" data-en="38 original meditation tracks, clinically reviewed">38 段独家冥想音轨，临床心理顾问把关</li>
+                <li data-zh="端到端响应 < 1.5 秒，流式语音" data-en="End-to-end latency &lt;1.5s, streaming voice">端到端响应 &lt; 1.5 秒，流式语音</li>
+                <li data-zh="算法 + 生成式服务双备案合规路径" data-en="Dual algorithm + generative-service compliance">算法 + 生成式服务双备案合规路径</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="product-row reveal">
+            <div class="product-visual product-visual--phone">
+              <img src="assets/app/social_dm.png" alt="AuraIsland 社交互动" />
+            </div>
+            <div class="product-copy">
+              <span class="eyebrow" data-zh="AURAISLAND · 轻社交" data-en="AURAISLAND">AURAISLAND · 轻社交</span>
+              <h3 data-zh="搭子的搭子，社交互动也很轻盈。" data-en="The friend of your pal. Social, but gentle.">搭子的搭子，社交互动也很轻盈。</h3>
+              <p data-zh="基于兴趣、性格、心情的虚拟集会广场。Pandudu 替你试探、破冰，让真实社交也变得轻盈。" data-en="A virtual plaza based on mood and personality. Pandudu breaks the ice for you."></p>
+              <ul class="feature-list">
+                <li data-zh="情绪频道：今夜失眠 / 加班逃生 / 周末治愈" data-en="Mood channels: Sleepless tonight · Escape from OT · Weekend healing">情绪频道：今夜失眠 / 加班逃生 / 周末治愈</li>
+                <li data-zh="1 对 1 私聊有 Pandudu 当 wingman，保护边界" data-en="1-on-1 DM with Pandudu as wingman, boundaries protected">1 对 1 私聊有 Pandudu 当 wingman，保护边界</li>
+                <li data-zh="每周线下「集会日」，把虚拟搭子带到真实生活" data-en="Weekly offline meetups — bring your virtual pal into real life">每周线下「集会日」，把虚拟搭子带到真实生活</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- AEE PREVIEW -->
+      <section class="aee">
+        <div class="container">
+          <div class="section-head reveal" style="margin-inline: auto; text-align: center;">
+            <span class="eyebrow" data-zh="THE ENGINE" data-en="THE ENGINE">THE ENGINE</span>
+            <h2 data-zh="星伴情感引擎 AEE" data-en="AuraPal Emotional Engine">星伴情感引擎 AEE</h2>
+            <p data-zh="虚拟世界专属情感 AI 底座。三层架构 + 六种人格微调 + 临床疗愈资源——让 Pandudu 不只是"会聊天"，而是"在场"。" data-en="An emotional-AI foundation for virtual worlds. Three layers + six personality finetunes + clinical resources — so Pandudu doesn't just chat. She's present."></p>
+          </div>
+
+          <div class="aee-layers">
+            <div class="aee-card reveal" data-layer="1">
+              <span class="aee-layer-tag">L1 · 认知记忆层</span>
+              <span class="aee-name">MindWell</span>
+              <span class="aee-cn" data-zh="心井 · 记忆系统" data-en="MindWell · Memory">心井 · 记忆系统</span>
+              <p data-zh="检索型长期记忆 + 情绪向量数据库。她说过的事、上次的心情，TA 都记得。" data-en="Retrieval-based long-term memory + emotion-vector store."></p>
+              <div class="aee-tags"><span>Mem0</span><span data-zh="Token 砍 72%" data-en="-72% tokens">Token 砍 72%</span><span data-zh="情绪向量" data-en="Emotion vectors">情绪向量</span></div>
+            </div>
+            <div class="aee-card reveal" data-layer="2" data-delay="1">
+              <span class="aee-layer-tag">L2 · 人格画像层</span>
+              <span class="aee-name">PersonaPrism</span>
+              <span class="aee-cn" data-zh="六棱人格引擎" data-en="PersonaPrism · Hex-Persona">六棱人格引擎</span>
+              <p data-zh="6 种性格 IP，每种基于专属语料微调；用户可在 App 内切换 TA 的性格。" data-en="6 personality IPs, each finetuned on its own corpus. Switch personality in-app."></p>
+              <div class="aee-tags"><span data-zh="6 种性格微调" data-en="6 finetunes">6 种性格微调</span><span data-zh="开源自部署" data-en="OSS self-host">开源自部署</span></div>
+            </div>
+            <div class="aee-card reveal" data-layer="3" data-delay="2">
+              <span class="aee-layer-tag">L3 · 情感交互层</span>
+              <span class="aee-name">PulseFlow</span>
+              <span class="aee-cn" data-zh="脉动情感系统" data-en="PulseFlow · Emotion Layer">脉动情感系统</span>
+              <p data-zh="实时情绪识别 + 7 种语气 TTS + 流式响应。让陪伴有温度、有节奏。" data-en="Realtime emotion detection + 7-emotion TTS + streaming response."></p>
+              <div class="aee-tags"><span data-zh="< 1.5 秒" data-en="&lt;1.5s">&lt; 1.5 秒</span><span data-zh="7 种语气" data-en="7 emotions">7 种语气</span><span data-zh="10s 声音克隆" data-en="10s clone">10s 声音克隆</span></div>
+            </div>
+          </div>
+
+          <div class="aee-abilities">
+            <div class="ability-card reveal">
+              <h4>Vivid Dialogue · <span data-zh="鲜活对话能力" data-en="Vivid dialogue">鲜活对话能力</span></h4>
+              <p data-zh="不冷场、不复读、不机械。Pandudu 会主动追问、会沉默、会偶尔接梗——像真的朋友。" data-en="No awkward silence. No repetition. Pandudu interrupts, pauses, jokes — like a real friend."></p>
+            </div>
+            <div class="ability-card reveal" data-delay="1">
+              <h4>SafeHeal · <span data-zh="守心疗愈能力" data-en="Safe healing">守心疗愈能力</span></h4>
+              <p data-zh="临床心理 RAG + CBT/正念框架。识别危机话语，及时转介至专业心理资源。" data-en="Clinical-psychology RAG + CBT/mindfulness. Detects crisis language, escalates to pro resources."></p>
+            </div>
+          </div>
+
+          <div style="text-align: center; margin-top: var(--space-12);">
+            <a href="aee.html" class="btn btn--ghost" data-zh="深入了解 AEE 引擎" data-en="Inside the AEE engine">
+              <span>深入了解 AEE 引擎</span>
+              <svg class="btn-arrow" viewBox="0 0 14 14" fill="none" stroke="currentColor" stroke-width="2"><path d="M1 7h12M8 2l5 5-5 5"/></svg>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <!-- TEAM PREVIEW -->
+      <section class="team-preview">
+        <div class="container">
+          <div class="section-head reveal">
+            <span class="eyebrow" data-zh="THE FOUNDERS" data-en="THE FOUNDERS">THE FOUNDERS</span>
+            <h2 data-zh="5 位 cofounder，把潮玩、AI、临床心理拧成一根绳。" data-en="5 cofounders — toys, AI, clinical psychology, woven together.">5 位 cofounder，把潮玩、AI、临床心理拧成一根绳。</h2>
+          </div>
+
+          <div class="team-grid">
+            <div class="team-card reveal">
+              <img src="assets/team/fred.jpg" alt="Max 马成" />
+              <h4>Max · 马成</h4>
+              <p data-zh="COFOUNDER · 产品 · 营销" data-en="COFOUNDER · Product · Marketing">COFOUNDER · 产品 · 营销</p>
+            </div>
+            <div class="team-card reveal" data-delay="1">
+              <img src="assets/team/pencil.jpg" alt="Pencil 徐磊" />
+              <h4>Pencil · 徐磊</h4>
+              <p data-zh="COFOUNDER · 艺术 IP" data-en="COFOUNDER · Art · IP">COFOUNDER · 艺术 IP</p>
+            </div>
+            <div class="team-card reveal" data-delay="2">
+              <img src="assets/team/cassie.jpg" alt="Cassie 冯欣博士" />
+              <h4>Cassie · 冯欣 PhD</h4>
+              <p data-zh="COFOUNDER · 疗愈大模型" data-en="COFOUNDER · Clinical LLM">COFOUNDER · 疗愈大模型</p>
+            </div>
+            <div class="team-card reveal" data-delay="3">
+              <img src="assets/team/jason.jpg" alt="Jason 黄怡君" />
+              <h4>Jason · 黄怡君</h4>
+              <p data-zh="COFOUNDER · 技术架构" data-en="COFOUNDER · Tech">COFOUNDER · 技术架构</p>
+            </div>
+            <div class="team-card reveal" data-delay="4">
+              <img src="assets/team/angelica.jpg" alt="Angelica 尚盟" />
+              <h4>Angelica · 尚盟</h4>
+              <p data-zh="COFOUNDER · 品牌 · 内容" data-en="COFOUNDER · Brand · Content">COFOUNDER · 品牌 · 内容</p>
+            </div>
+          </div>
+          <div style="text-align: center; margin-top: var(--space-12);">
+            <a href="team.html" class="btn btn--ghost" data-zh="认识完整团队" data-en="Meet the full team">
+              <span>认识完整团队</span>
+              <svg class="btn-arrow" viewBox="0 0 14 14" fill="none" stroke="currentColor" stroke-width="2"><path d="M1 7h12M8 2l5 5-5 5"/></svg>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <!-- CTA -->
+      <div class="container cta-banner">
+        <div class="cta-banner-inner reveal">
+          <div>
+            <h2 data-zh="想一起把潮玩变成可以倾诉的搭子？" data-en="Want to turn toys into companions worth talking to?">想一起把潮玩变成可以倾诉的搭子？</h2>
+            <p data-zh="种子轮已开放。寻找懂消费、懂内容、懂女性消费者的合作伙伴。" data-en="Seed round open. Looking for partners who understand consumer, content, and the female audience."></p>
+            <div style="margin-top: var(--space-6); display: flex; gap: var(--space-4); flex-wrap: wrap; position: relative;">
+              <a href="contact.html" class="btn btn--primary btn--lg" data-zh="预约一次对话" data-en="Book a conversation">预约一次对话</a>
+            </div>
+          </div>
+          <div class="cta-card-stack">
+            <div>
+              <span class="cta-icon">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16v16H4z"/><path d="M22 6l-10 7L2 6"/></svg>
+              </span>
+              <div>
+                <strong><a href="mailto:macheng.cnsd@gmail.com" style="color: inherit; text-decoration: none;">macheng.cnsd@gmail.com</a></strong><br /><span style="color: var(--color-text-muted); font-size: var(--text-xs);" data-zh="投资 / 合作邮箱" data-en="For investors & partners">投资 / 合作邮箱</span>
+              </div>
+            </div>
+            <div>
+              <span class="cta-icon">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"/></svg>
+              </span>
+              <div>
+                <strong>微信：nanwuweiwo</strong><br /><span style="color: var(--color-text-muted); font-size: var(--text-xs);" data-zh="加好友请备注机构 / 身份" data-en="Note your org / role when adding">加好友请备注机构 / 身份</span>
+              </div>
+            </div>
+            <div>
+              <span class="cta-icon">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg>
+              </span>
+              <div>
+                <strong data-zh="2026 Q3 内测开放" data-en="Closed beta Q3 2026">2026 Q3 内测开放</strong><br /><span style="color: var(--color-text-muted); font-size: var(--text-xs);" data-zh="申请加入早期共创群" data-en="Apply to join the early co-creation circle">申请加入早期共创群</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container">
+        <div class="footer-grid">
+          <div class="footer-brand">
+            <div class="brand">
+              <span class="brand-mark" style="color: #D4AF37">
+                <svg viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg" width="32" height="32" aria-hidden="true">
+              <path d="M 49.79 0.00 L 45.05 35.70 L 44.49 36.12 L 42.26 35.01 L 39.61 34.45 L 36.54 34.59 L 33.47 35.70 L 31.66 36.96 L 29.29 39.89 L 28.17 42.96 L 27.89 45.61 L 28.73 50.49 L 29.99 53.14 L 31.52 55.37 L 36.12 59.97 L 43.65 65.55 L 44.77 66.67 L 45.47 67.92 L 49.65 99.72 L 50.21 100.00 L 54.67 67.78 L 56.07 65.83 L 64.44 59.55 L 68.76 55.09 L 70.15 53.00 L 71.55 49.79 L 72.11 46.58 L 72.11 44.49 L 71.69 42.12 L 70.85 40.03 L 69.04 37.52 L 67.09 35.98 L 65.41 35.15 L 62.62 34.45 L 58.86 34.73 L 55.51 36.12 L 54.95 35.70 L 50.35 0.56 Z" fill="currentColor" />
+            </svg>
+              </span>
+              <span class="brand-text">AuraPal</span>
+            </div>
+            <p data-zh="比潮玩有深度，比陪伴有质感。" data-en="More than a toy. More than a chatbot."></p>
+          </div>
+          <div class="footer-col">
+            <h4 data-zh="产品" data-en="Product">产品</h4>
+            <ul>
+              <li><a href="product.html" data-zh="Pandudu 潮玩" data-en="Pandudu">Pandudu 潮玩</a></li>
+              <li><a href="product.html#talk" data-zh="AuraHeal" data-en="AuraHeal">AuraHeal</a></li>
+              <li><a href="product.html#plaza" data-zh="AuraIsland" data-en="AuraIsland">AuraIsland</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h4 data-zh="公司" data-en="Company">公司</h4>
+            <ul>
+              <li><a href="aee.html" data-zh="星伴情感引擎" data-en="AEE Engine">星伴情感引擎</a></li>
+              <li><a href="team.html" data-zh="团队" data-en="Team">团队</a></li>
+              <li><a href="contact.html" data-zh="联系" data-en="Contact">联系</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h4 data-zh="关注" data-en="Follow">关注</h4>
+            <ul>
+              <li><a href="mailto:macheng.cnsd@gmail.com">macheng.cnsd@gmail.com</a></li>
+              <li><a href="#" data-zh="微信 nanwuweiwo" data-en="WeChat: nanwuweiwo">微信 nanwuweiwo</a></li>
+              <li><a href="#" data-zh="小红书" data-en="Xiaohongshu">小红书</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <span>© 2026 AuraPal · <span data-zh="星伴情感科技" data-en="AuraPal Inc.">星伴情感科技</span></span>
+          <span data-zh="算法备案 · 生成式服务备案 已锁定路径" data-en="Algorithm & generative-service filings — pathway locked">算法备案 · 生成式服务备案 已锁定路径</span>
+        </div>
+      </div>
+    </footer>
+
+    <script src="js/main.js"></script></body>
+</html>

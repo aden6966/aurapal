@@ -1,0 +1,229 @@
+<!doctype html>
+<html lang="zh-CN" data-lang="zh">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>技术 · 星伴情感引擎 AEE · AuraPal</title>
+    <meta name="description" content="星伴情感引擎 AEE 是 AuraPal 自研的虚拟世界专属情感 AI 底座。三层架构 · 六种性格微调 · 临床疗愈资源。" />
+    <link rel="icon" type="image/svg+xml" href="assets/favicon.svg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;1,9..144,400&family=Plus+Jakarta+Sans:wght@400;500;600;700&family=Noto+Serif+SC:wght@500;700&family=Noto+Sans+SC:wght@400;500;600&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="css/tokens.css" />
+    <link rel="stylesheet" href="css/base.css" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container nav-inner">
+        <a href="index.html" class="brand">
+          <span class="brand-mark" style="color: #D4AF37">
+            <svg viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg" width="32" height="32" aria-hidden="true">
+              <path d="M 49.79 0.00 L 45.05 35.70 L 44.49 36.12 L 42.26 35.01 L 39.61 34.45 L 36.54 34.59 L 33.47 35.70 L 31.66 36.96 L 29.29 39.89 L 28.17 42.96 L 27.89 45.61 L 28.73 50.49 L 29.99 53.14 L 31.52 55.37 L 36.12 59.97 L 43.65 65.55 L 44.77 66.67 L 45.47 67.92 L 49.65 99.72 L 50.21 100.00 L 54.67 67.78 L 56.07 65.83 L 64.44 59.55 L 68.76 55.09 L 70.15 53.00 L 71.55 49.79 L 72.11 46.58 L 72.11 44.49 L 71.69 42.12 L 70.85 40.03 L 69.04 37.52 L 67.09 35.98 L 65.41 35.15 L 62.62 34.45 L 58.86 34.73 L 55.51 36.12 L 54.95 35.70 L 50.35 0.56 Z" fill="currentColor" />
+            </svg>
+          </span>
+          <span class="brand-text">AuraPal</span>
+        </a>
+        <ul class="nav-links">
+          <li><a href="index.html" data-zh="首页" data-en="Home">首页</a></li>
+          <li><a href="product.html" data-zh="产品" data-en="Product">产品</a></li>
+          <li><a href="aee.html" aria-current="page" data-zh="技术" data-en="Technology">技术</a></li>
+          <li><a href="team.html" data-zh="团队" data-en="Team">团队</a></li>
+          <li><a href="contact.html" data-zh="联系" data-en="Contact">联系</a></li>
+        </ul>
+        <div class="nav-actions">
+          <button class="lang-toggle" data-lang-toggle aria-label="切换语言"><span class="lang-dot"></span><span class="lang-label">EN</span></button>
+          <button class="icon-btn" data-theme-toggle aria-label="切换深色模式"></button>
+          <button class="icon-btn nav-mobile-toggle" aria-label="菜单" aria-expanded="false">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="3" y1="7" x2="21" y2="7"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="17" x2="21" y2="17"/></svg>
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section class="page-hero">
+        <div class="container">
+          <span class="eyebrow" data-zh="AEE · ENGINE" data-en="AEE · ENGINE">AEE · ENGINE</span>
+          <h1 data-zh="星伴情感引擎。虚拟世界专属的情感 AI 底座。" data-en="AuraPal Emotional Engine. A foundation built only for emotional companionship.">星伴情感引擎。虚拟世界专属的情感 AI 底座。</h1>
+          <p data-zh="通用大模型擅长任务和知识，但不擅长「在场」。AEE 是我们为情感陪伴场景从零搭建的引擎——三层架构让 TA 看得见、记得住、回应得起。" data-en="General-purpose LLMs are great at tasks. They're bad at presence. AEE is the engine we built from scratch for emotional companionship — three layers so she sees, remembers, and responds."></p>
+        </div>
+      </section>
+
+      <section class="aee">
+        <div class="container">
+          <div class="aee-layers">
+            <div class="aee-card reveal" data-layer="1">
+              <span class="aee-layer-tag">L1 · 认知记忆层</span>
+              <span class="aee-name">MindWell</span>
+              <span class="aee-cn" data-zh="心井 · 记忆系统" data-en="MindWell · Memory">心井 · 记忆系统</span>
+              <p data-zh="基于 Mem0 的检索型长期记忆 + 情绪向量数据库。把"你说过的事"和"那时你的心情"一起存。" data-en="Mem0-based retrieval memory + emotion-vector store. We store what you said and how you felt."></p>
+              <div class="aee-tags"><span>Mem0</span><span data-zh="Token 砍 72%" data-en="-72% tokens">Token 砍 72%</span><span data-zh="情绪向量索引" data-en="Emotion vectors">情绪向量索引</span></div>
+            </div>
+            <div class="aee-card reveal" data-layer="2" data-delay="1">
+              <span class="aee-layer-tag">L2 · 人格画像层</span>
+              <span class="aee-name">PersonaPrism</span>
+              <span class="aee-cn" data-zh="六棱人格引擎" data-en="Hex-Persona">六棱人格引擎</span>
+              <p data-zh="6 种性格 IP，每种基于专属语料做微调。用户可以在 App 内随时切换 Pandudu 的性格底色。" data-en="6 personality IPs, each finetuned on its own corpus. Switch in-app any time."></p>
+              <div class="aee-tags"><span data-zh="6 种性格微调" data-en="6 finetunes">6 种性格微调</span><span data-zh="开源自部署" data-en="OSS self-host">开源自部署</span><span data-zh="云 burst" data-en="Cloud burst">云 burst</span></div>
+            </div>
+            <div class="aee-card reveal" data-layer="3" data-delay="2">
+              <span class="aee-layer-tag">L3 · 情感交互层</span>
+              <span class="aee-name">PulseFlow</span>
+              <span class="aee-cn" data-zh="脉动情感系统" data-en="PulseFlow · Emotion Layer">脉动情感系统</span>
+              <p data-zh="实时情绪识别 + 7 种语气 TTS + 流式响应 + 10 秒声音克隆。让 TA 的回应有温度、有节奏、有"在场感"。" data-en="Realtime emotion detection + 7-emotion TTS + streaming + 10s clone. Reply has warmth, rhythm, presence."></p>
+              <div class="aee-tags"><span data-zh="< 1.5 秒" data-en="&lt;1.5s">&lt; 1.5 秒</span><span data-zh="7 种语气" data-en="7 emotions">7 种语气</span><span>ASR · TTS</span></div>
+            </div>
+          </div>
+
+          <div class="aee-abilities">
+            <div class="ability-card reveal">
+              <h4>Vivid Dialogue · <span data-zh="鲜活对话能力" data-en="Vivid dialogue">鲜活对话能力</span></h4>
+              <p data-zh="不冷场、不复读、不机械。Pandudu 会主动追问、会沉默几秒、会偶尔接梗——像真正的搭子，而不是答疑机器。" data-en="No awkward silence. No repetition. Pandudu interrupts, pauses, jokes — like a real pal, not an answering machine."></p>
+            </div>
+            <div class="ability-card reveal" data-delay="1">
+              <h4>SafeHeal · <span data-zh="守心疗愈能力" data-en="Safe healing">守心疗愈能力</span></h4>
+              <p data-zh="临床心理 RAG + CBT/正念框架。识别危机话语，及时转介至上海精卫等专业资源。从来不假装是医生，也从来不躲。" data-en="Clinical-psychology RAG + CBT/mindfulness. Detects crisis language and escalates. Never pretends to be a doctor — never looks away."></p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- 5 dim cards -->
+      <section>
+        <div class="container">
+          <div class="section-head reveal">
+            <span class="eyebrow" data-zh="5 DIMENSIONS" data-en="5 DIMENSIONS">5 DIMENSIONS</span>
+            <h2 data-zh-html="基于行业一线模型，<br/>全新专属架构。" data-en-html="A purpose-built architecture<br/>on top of frontier models.">基于行业一线模型，<br/>全新专属架构。</h2>
+          </div>
+
+          <div class="insight-grid" style="grid-template-columns: repeat(5, 1fr);">
+            <div class="insight-card reveal" style="grid-column: span 1;">
+              <div class="insight-stat">01</div>
+              <h3 data-zh="人设一致性" data-en="Persona consistency">人设一致性</h3>
+              <p data-zh="6 种性格微调。Pandudu 不会上一秒温柔下一秒油腻。" data-en="6 finetunes — no personality drift mid-conversation.">6 种性格微调。Pandudu 不会上一秒温柔下一秒油腻。</p>
+            </div>
+            <div class="insight-card reveal" data-delay="1">
+              <div class="insight-stat">02</div>
+              <h3 data-zh="成本控制" data-en="Cost control">成本控制</h3>
+              <p data-zh="开源自部署 70% + 云 burst 30%；Mem0 让 token 砍 72%。" data-en="70% self-hosted OSS + 30% cloud burst. Mem0 cuts 72% tokens.">开源自部署 70% + 云 burst 30%；Mem0 让 token 砍 72%。</p>
+            </div>
+            <div class="insight-card reveal" data-delay="2">
+              <div class="insight-stat">03</div>
+              <h3 data-zh="响应速度" data-en="Latency">响应速度</h3>
+              <p data-zh="端到端 &lt; 1.5 秒流式响应；TTS 250 毫秒触发。" data-en="End-to-end &lt;1.5s streaming. TTS triggers in 250ms.">端到端 &lt; 1.5 秒流式响应；TTS 250 毫秒触发。</p>
+            </div>
+            <div class="insight-card reveal" data-delay="3">
+              <div class="insight-stat">04</div>
+              <h3 data-zh="安全合规" data-en="Compliance">安全合规</h3>
+              <p data-zh="算法备案 + 生成式服务双备案，9–12 个月已锁定路径。" data-en="Dual filing — pathway locked in 9–12 months.">算法备案 + 生成式服务双备案，9–12 个月已锁定路径。</p>
+            </div>
+            <div class="insight-card reveal" data-delay="4">
+              <div class="insight-stat">05</div>
+              <h3 data-zh="疗愈适配" data-en="Healing fit">疗愈适配</h3>
+              <p data-zh="临床 RAG + CBT 框架 + 38 段冥想 + 专业资源转介。" data-en="Clinical RAG + CBT + 38 meditations + pro referrals.">临床 RAG + CBT 框架 + 38 段冥想 + 专业资源转介。</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Tech stack -->
+      <section class="app-show">
+        <div class="container">
+          <div class="section-head reveal">
+            <span class="eyebrow" data-zh="STACK" data-en="STACK">STACK</span>
+            <h2 data-zh="技术栈与合规路径" data-en="Tech stack & compliance path">技术栈与合规路径</h2>
+          </div>
+
+          <div class="app-summary" style="grid-template-columns: repeat(4, 1fr); margin-top: 0;">
+            <div class="reveal">
+              <h4 data-zh="底座大模型" data-en="Base LLM">底座大模型</h4>
+              <p data-zh="Qwen3 70B 自部署主流 · Doubao / MiniMax 云端 burst 兜底" data-en="Qwen3-70B self-host + Doubao / MiniMax burst.">Qwen3 70B 自部署主流 · Doubao / MiniMax 云端 burst 兜底</p>
+            </div>
+            <div class="reveal" data-delay="1">
+              <h4 data-zh="语音侧" data-en="Voice stack">语音侧</h4>
+              <p data-zh="阿里 Paraformer / 火山 ASR · MiniMax Speech 2.6 Turbo" data-en="Paraformer / Volc ASR · MiniMax Speech 2.6 Turbo.">阿里 Paraformer / 火山 ASR · MiniMax Speech 2.6 Turbo</p>
+            </div>
+            <div class="reveal" data-delay="2">
+              <h4 data-zh="边缘端" data-en="Edge">边缘端</h4>
+              <p data-zh="Rockchip RK3588 + RK182X 协处理 · 离线唤醒 + 隐私保护" data-en="Rockchip RK3588 + RK182X. Offline wake + privacy.">Rockchip RK3588 + RK182X 协处理 · 离线唤醒 + 隐私保护</p>
+            </div>
+            <div class="reveal" data-delay="3">
+              <h4 data-zh="合规" data-en="Compliance">合规</h4>
+              <p data-zh="算法备案 + 生成式服务备案 · 心理顾问把关 · 危机识别转介" data-en="Dual filing · clinical review · crisis escalation.">算法备案 + 生成式服务备案 · 心理顾问把关 · 危机识别转介</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <div class="container cta-banner">
+        <div class="cta-banner-inner reveal">
+          <div>
+            <h2 data-zh="想看引擎跑起来的样子？" data-en="Want to see the engine run?">想看引擎跑起来的样子？</h2>
+            <p data-zh="为投资人和合作伙伴提供闭门 demo。Pandudu 现场说"hi"。" data-en="Closed-door demo for investors and partners. Hear Pandudu say hi."></p>
+            <div style="margin-top: var(--space-6); position: relative;">
+              <a href="contact.html" class="btn btn--primary btn--lg" data-zh="预约 demo" data-en="Book a demo">预约 demo</a>
+            </div>
+          </div>
+          <div class="cta-card-stack">
+            <div>
+              <span class="cta-icon">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg>
+              </span>
+              <div>
+                <strong data-zh="45 分钟 deep dive" data-en="45-min deep dive">45 分钟 deep dive</strong><br /><span style="color: var(--color-text-muted); font-size: var(--text-xs);" data-zh="含 Q&amp;A · NDA 后可分享数据" data-en="incl. Q&amp;A · data under NDA">含 Q&amp;A · NDA 后可分享数据</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container">
+        <div class="footer-grid">
+          <div class="footer-brand">
+            <div class="brand">
+              <span class="brand-mark" style="color: #D4AF37">
+                <svg viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg" width="32" height="32" aria-hidden="true">
+              <path d="M 49.79 0.00 L 45.05 35.70 L 44.49 36.12 L 42.26 35.01 L 39.61 34.45 L 36.54 34.59 L 33.47 35.70 L 31.66 36.96 L 29.29 39.89 L 28.17 42.96 L 27.89 45.61 L 28.73 50.49 L 29.99 53.14 L 31.52 55.37 L 36.12 59.97 L 43.65 65.55 L 44.77 66.67 L 45.47 67.92 L 49.65 99.72 L 50.21 100.00 L 54.67 67.78 L 56.07 65.83 L 64.44 59.55 L 68.76 55.09 L 70.15 53.00 L 71.55 49.79 L 72.11 46.58 L 72.11 44.49 L 71.69 42.12 L 70.85 40.03 L 69.04 37.52 L 67.09 35.98 L 65.41 35.15 L 62.62 34.45 L 58.86 34.73 L 55.51 36.12 L 54.95 35.70 L 50.35 0.56 Z" fill="currentColor" />
+            </svg>
+              </span>
+              <span class="brand-text">AuraPal</span>
+            </div>
+            <p data-zh="比潮玩有深度，比陪伴有质感。" data-en="More than a toy. More than a chatbot."></p>
+          </div>
+          <div class="footer-col">
+            <h4 data-zh="产品" data-en="Product">产品</h4>
+            <ul>
+              <li><a href="product.html" data-zh="Pandudu 潮玩" data-en="Pandudu">Pandudu 潮玩</a></li>
+              <li><a href="product.html#talk" data-zh="AuraHeal" data-en="AuraHeal">AuraHeal</a></li>
+              <li><a href="product.html#plaza" data-zh="AuraIsland" data-en="AuraIsland">AuraIsland</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h4 data-zh="公司" data-en="Company">公司</h4>
+            <ul>
+              <li><a href="aee.html" data-zh="星伴情感引擎" data-en="AEE Engine">星伴情感引擎</a></li>
+              <li><a href="team.html" data-zh="团队" data-en="Team">团队</a></li>
+              <li><a href="contact.html" data-zh="联系" data-en="Contact">联系</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h4 data-zh="关注" data-en="Follow">关注</h4>
+            <ul>
+              <li><a href="mailto:macheng.cnsd@gmail.com">macheng.cnsd@gmail.com</a></li>
+              <li><a href="#" data-zh="微信 nanwuweiwo" data-en="WeChat: nanwuweiwo">微信 nanwuweiwo</a></li>
+              <li><a href="#" data-zh="小红书" data-en="Xiaohongshu">小红书</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <span>© 2026 AuraPal · <span data-zh="星伴情感科技" data-en="AuraPal Inc.">星伴情感科技</span></span>
+          <span data-zh="算法备案 · 生成式服务备案 已锁定路径" data-en="Algorithm & generative-service filings — pathway locked">算法备案 · 生成式服务备案 已锁定路径</span>
+        </div>
+      </div>
+    </footer>
+
+    <script src="js/main.js"></script></body>
+</html>
